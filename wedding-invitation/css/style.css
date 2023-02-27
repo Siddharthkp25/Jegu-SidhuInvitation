@@ -316,12 +316,14 @@ p {
    }
     .banner-text.light{
    	padding-top: 10px;
+    font-family: cursive;
    }
    .section-title .blurb{
      width: 100%;
     }
     #countdowns{
         display: grid;
+        font-family: cursive;
     }
     .map{
     height: 300px !important;

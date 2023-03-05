@@ -14,6 +14,13 @@ body{
   font-display: swap;
 }
 @font-face {
+  font-family: Angles;
+  src: url("../fonts/Angeles.ttff"),
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: mediumInter;
   src: url("../fonts/Inter-Medium.ttff");
 }
@@ -195,25 +202,23 @@ p {
 	height: 100vh;
 	text-align: center;
 }
-.banner-text  h4{
-	margin: 5px;
-}
+
 .wedding-section-title h1{
-    font-family: 'Pacifico';
+    font-family: 'Arvo';
     color: blueviolet;
 }
 .blurb{
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Arvo';
     margin: 20px 0 0 0;
     padding-bottom: 10px;
+  text-shadow: 3px 3px 3px #ababab;
 }
 .timings{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 700;
-    font-family: 'Arvo';
-    
+    font-family: Angles, cursive;
+    color: #718de2;
 }
 #counting-down {
     text-align: center;

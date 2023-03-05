@@ -3,7 +3,7 @@
 	padding:0;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 @font-face {
   font-family: Pacifico;
@@ -202,7 +202,6 @@ p {
     font-weight: 700;
     font-family: cursive;
     margin: 50px 0 50px 0;
-    text-decoration: underline;
     padding-bottom: 10px;
 }
 #counting-down {

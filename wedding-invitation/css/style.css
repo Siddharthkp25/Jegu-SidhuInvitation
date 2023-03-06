@@ -252,7 +252,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     font-size: 45px;
-    font-family:'Arvo', serif;
+    font-family:'pacifico', serif;
     font-weight: 700;
     color: #fff;
     margin-top: 5%;
@@ -349,15 +349,12 @@ p {
     .banner-text.light{
    	padding-top: 10px;
     font-family: 'Oswald';
-    white-space: nowrap;
-
    }
    .section-title .blurb{
      width: 100%;
     }
     #countdowns{
     display: grid;
-    font-family: 'Arvo';
     letter-spacing: 5px;
     }
     .map{

@@ -403,7 +403,8 @@ p {
     margin-top: -25%;
    }*/
    .blurb{
-    font-size: 20px;
+    font-size: 28px;
+    font-family: 'Arvo';
    }
    #thankyou-banner{
     background-size: 100% 100%;
@@ -419,10 +420,26 @@ p {
    .firstpage-text{
     margin-top: 25%;
    }
+   #couple-photo{
+    display: none;
+   }
+   .wedding-section-title h1 {
+    font-family: 'Arvo',sans-serif;
+    color: blueviolet;
+    font-size: 40px;
+   }
   }
 
 @media only screen and (max-width: 390px){
    .slider2,.slider3,.slider1,#first-page{
     height: 100vh;
+   }
+
+   .blurb{
+    font-size: 25px;
    } 
   }
+  
+   .owl-dots{
+    display: none;
+   }

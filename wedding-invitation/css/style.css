@@ -413,11 +413,13 @@ p {
    #first-page{
     background-image: url("../images/firstbg-mbl.png");
     background-size: 100% 100%;
+    background-size: cover;
+    height: 80vh;
    }
   }
 
 @media only screen and (max-width: 390px){
-   .slider2,.slider3,.slider1{
+   .slider2,.slider3,.slider1,#first-page{
     height: 100vh;
    } 
   }

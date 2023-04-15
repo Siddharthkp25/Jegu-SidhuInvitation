@@ -5,6 +5,7 @@
 body{
     overflow: hidden ;
 }
+
 @font-face {
   font-family: Pacifico;
   src: url("../fonts/Pacifico-Regular.woff"),
@@ -349,20 +350,23 @@ p {
     visibility: hidden;
 }
 @media only screen and (max-width: 600px){
-	.slider1{
+	section{
+        height: 100vh !important;
+    }
+    .slider1{
 	background-image: url("../images/slider1-mob.png");
 	background-size: cover;
-    height: 80vh;
+    height: 100vh;
    }
    .slider2{
 	background-image: url("../images/slider2-mob.png");
 	background-size: cover;
-    height: 80vh;
+    height: 100vh;
    }
    .slider3{
 	background-image: url("../images/slider3-mob.png");
 	background-size: cover;
-    height: 80vh;
+    height: 100vh;
    }
    #save {
     font-size: 60px;
@@ -395,6 +399,7 @@ p {
     height: auto;
     margin-bottom: 2%;
     padding-bottom: 10%;
+    padding-top: 15%;
    }
    .date-section{
     top: 60%;
@@ -437,7 +442,10 @@ p {
 
    .blurb{
     font-size: 25px;
-   } 
+   }
+   #wedding-location{
+    margin-bottom: 40%;
+   }
   }
   
    .owl-dots{

@@ -4,7 +4,7 @@ window.addEventListener('load', () => { // wait to load the page
   setTimeout(() => {
 	$('.overlay').css('display','none');
 	 $('body').css('overflow','scroll');
-    console.log('loaded')
+    console.log('loaded');
   }, 150)
 })
 
@@ -36,4 +36,51 @@ function makeTimer() {
 	}
 
 	setInterval(function() { makeTimer(); }, 1000);	 
+
+// var audio = document.getElementById("my_audio");
+var btn = document.getElementById("myBtn");
+
+//declare unmute icon variable
+let unmuteIcon = '<i class="fas fa-volume-up"></i>'
+
+//declare mute icon variable
+let muteIcon = '<i class="fas fa-volume-mute" onclick="mute();"></i>'
+
+// function myFunction() {
+//   // toggle the muted property of the video element
+//   video.muted = !video.muted;
+
+//   // if the video is muted, set the btn.innerHTML to unmuteIcon
+//   // otherwise, set it to the muteIcon
+//   if (video.muted) {
+//   	video.play();
+//   	console.log("clicked");
+//     btn.innerHTML = unmuteIcon;
+//   } else {
+//   	video.play();
+//     btn.innerHTML = muteIcon;
+//   }
+// }
+
+// function myFunction(){
+// 	document.getElementById("my_audio").play();
+// 	btn.innerHTML = muteIcon;
+// }
+
+
+$('#myBtn').click(function(){
+
+if( $("#my_audio").prop('muted') ) {
+          $("#my_audio").prop('muted', false);
+          btn.innerHTML = unmuteIcon;
+          document.getElementById("my_audio").play();
+      // or toggle class, style it with a volume icon sprite, change background-position
+    } else {
+      $("#my_audio").prop('muted', true);
+      btn.innerHTML = muteIcon;
+      document.getElementById("my_audio").pause();
+    }
+
+});
+
 

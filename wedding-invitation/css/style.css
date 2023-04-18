@@ -471,7 +471,7 @@ p {
     margin-top: 30%;
    }
   }
-  @media only screen and (max-width: 370px){
+  @media only screen and (max-width: 390px){
   .firstpage-text {
     margin-top: 40%;
    }

@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="./css/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +25,12 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Oswald:wght@200&family=PT+Serif:ital,wght@0,400;1,700&family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="content">
+    <button id="myBtn"><i class="fas fa-volume-mute"></i></button>
+  </div>
+    <div class="music">
+        <audio src="Marriage-At-2AM.mp3" id="my_audio" autoplay muted></audio> 
+      </div>
     <div class="overlay" id="preloader">
       <div class="overlay__inner">
         <div class="overlay__content">
@@ -152,18 +160,21 @@
     </section>
     <section id="thankyou-banner">
         <div class="container-fluid">
-             <div id="thank-you">
+            <div id="footer-couple-head">Can't wait to celebrate auspicious moment of our family with you!
+</div>
+             <div id="thank-you" style="display: none;">
                 <div id="thank">Thank</div>
                 <div id="you">You</div>
              </div>
+             <br/>
              <div id="footer-couple-name">
                 Jegu &amp; Siddu
             </div>
         </div>
     </section>
-    <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
     <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="./js/aos.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -199,6 +210,39 @@
     
 
       AOS.init();
+
+// function audioplay(){
+// setTimeout(function(){
+// document.getElementById("my_audio").play();
+// },100)
+
+// }
+// $(document).on('click', function(){
+//    console.log("audioplay")
+//     document.getElementById("my_audio").play();
+// });
+
+// function myFunction() {
+//   console.log("audioplay1");
+//   document.getElementById("my_audio").play();
+// }
+
+// var playing = false;
+// var audioElm = $('#my_audio').get(0);
+// $(window).scroll(function() {
+//   var pageScroll = $(window).scrollTop();
+//   if(!playing && pageScroll > 500 && pageScroll < 3000){
+//     console.log("scroll");
+//     audioElm.play();
+//     playing = true;
+//   }else if(pageScroll > 3000 || pageScroll < 500){
+//     audioElm.pause();
+//     playing = false;
+//   }
+// });
+// document.addEventListener("click", function(){
+//   console.log("audioplay")
+// });
     </script>
   </body>
 </html>

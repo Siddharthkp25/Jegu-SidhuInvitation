@@ -3,7 +3,7 @@
 window.addEventListener('load', () => { // wait to load the page
   setTimeout(() => {
 	$('.overlay').css('display','none');
-	 $('body').css('overflow','scroll');
+	 $('body').css('overflow-y','scroll');
     console.log('loaded');
   }, 150)
 })

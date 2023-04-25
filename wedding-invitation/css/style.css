@@ -3,7 +3,7 @@
 	padding:0;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -470,6 +470,14 @@ p {
    .firstpage-text{
     margin-top: 30%;
    }
+
+.lotifymap{
+    height: auto;
+}
+
+.map-text{
+    margin-bottom: -15%;
+}
   }
   @media only screen and (max-width: 390px){
   .firstpage-text {
@@ -483,7 +491,9 @@ p {
     display: none;
    }
 
-
+.lotifymap{
+    height: 400px;
+}
 #myBtn {
   top: 10%;
   right: 3%;

@@ -409,6 +409,7 @@ p {
     }
     .map{
     height: 300px !important;
+    margin-top: -50px;
    }
    #countdown-banner{
     height: auto;

@@ -516,5 +516,5 @@ p {
     font-weight: 700;
 }
 .map-text{
- font-size:18px;
+ font-size:18px !important;
 }

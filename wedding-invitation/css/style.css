@@ -423,7 +423,7 @@ p {
     margin-top: -25%;
    }*/
    .blurb{
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'PT Serif', serif;
    }
    #thankyou-banner{
@@ -454,6 +454,7 @@ p {
   }
 
 @media only screen and (max-width: 390px){
+
    .slider2,.slider3,.slider1,#first-page{
     height: 100vh;
    }
